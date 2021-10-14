@@ -14,7 +14,7 @@ Telegram to G-Drive Uploder Bot
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/breakdowns/mega-sdk-python?label=Docker%20Pull)
 
-[![Channel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/theempirebot)
+[![Channel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/EMPIREBOTS)
 
 **The Shadow Mirror Bot** is a _multipurpose_ Telegram Bot written in Python for mirroring files on the Internet to our beloved Google Drive.
 
