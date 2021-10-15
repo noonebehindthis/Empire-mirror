@@ -244,7 +244,7 @@ except KeyError:
 try:
     IMAGE_URL = getConfig('IMAGE_URL')
 except KeyError:
-    IMAGE_URL = 'https://telegra.ph/file/3c4237dd056fcc3ed36d4.jpg'
+    IMAGE_URL = 'https://telegra.ph/file/08a15dfeecef95bbb8aea.jpg'
 
 updater = tg.Updater(token=BOT_TOKEN)
 bot = updater.bot
