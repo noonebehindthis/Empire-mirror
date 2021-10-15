@@ -100,7 +100,7 @@ class GoogleDriveHelper:
                                      resumable=False)
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded using RK137_Mirror Bot',
+            'description': 'Uploaded using Empire Bots Bot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -136,7 +136,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded using RK137_Mirror Bot',
+            'description': 'Uploaded using Empire Bots Bot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -487,9 +487,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=telegraph_token).edit_page(path = self.path[prev_page],
-                                 title = 'RK137_Mirror Bot Search',
-                                 author_name='RK137_Mirror Bot',
-                                 author_url='https://github.com/rahulkhatri137/mirrorbot137',
+                                 title = 'Empire Bots Search',
+                                 author_name='Empire Bots',
+                                 author_url='https://t.me/joinchat/KOpMjoG9zkNkMGZl',
                                  html_content=content)
         return
 
@@ -564,9 +564,9 @@ class GoogleDriveHelper:
 
             for content in self.telegraph_content :
                 self.path.append(Telegraph(access_token=telegraph_token).create_page(
-                                                        title = 'RK137_Mirror Bot Search',
-                                                        author_name='RK137_Mirror Bot',
-                                                        author_url='https://github.com/rahulkhatri137/mirrorbot137',
+                                                        title = 'Empire Bots Search',
+                                                        author_name='Empire Bots',
+                                                        author_url='https://t.me/joinchat/KOpMjoG9zkNkMGZl',
                                                         html_content=content
                                                         )['path'])
 
