@@ -1,4 +1,4 @@
-# The-Shadow-mirror-bot
+# The-Empire-mirror-bot
 Telegram to G-Drive Uploder Bot
 [![EmpireBots](https://telegra.ph/file/dd68f0ff8c8e1bda55952.jpg)](https://t.me/TheEmpireGroup)
 
