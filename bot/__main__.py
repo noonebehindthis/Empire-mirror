@@ -40,6 +40,7 @@ def stats(update, context):
             f'<b>├  🖥️ CPU : {cpuUsage}%</b>\n' \
             f'<b>├  🚀 RAM : {memory}%</b>\n' \
             f'<b>├  🗄 DISK : {disk}%</b>\n' \
+            f'<b>│</b>\n' \
             f'<b>╰──── 【 🌟 Empire Bots 🌟 】</b>
     sendMessage(stats, context.bot, update)
 
